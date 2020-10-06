@@ -1,0 +1,21 @@
+in cmd:
+
+git
+git init
+git add .
+git commit -m "initial commit"    # git commit with the Message
+------------------------------------------
+heroku
+heroku login
+heroku create
+git remote -v
+git push heroku master
+----------------------------------------------
+
+
+1.heroku login
+2.heroku logs --app ml-salary-predi-api    ---to see the logs
+
+---------------------------------
+*requirements.txt file generator.
+pip freeze > requirements.txt
